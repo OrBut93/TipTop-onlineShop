@@ -1,0 +1,35 @@
+{
+  "products": [
+    {"_id":"product1",
+      "title":"Product1",
+      "image": "/images/product1.jpg",
+      "description": "About the product",
+      "price": 200,
+      "available": "yes"
+    },
+
+    {"_id":"product2",
+      "title":"Product2",
+      "image": "/images/product2.jpg",
+      "description": "About the product",
+      "price": 250,
+      "available": "yes"
+    },
+
+    {"_id":"product3",
+      "title":"Product3",
+      "image": "/images/product3.jpg",
+      "description": "About the product",
+      "price": 350,
+      "available": "yes"
+    },
+
+    {"_id":"product4",
+      "title":"Product4",
+      "image": "/images/product4.jpg",
+      "description": "About the product",
+      "price": 200,
+      "available": "yes"
+    }
+  ]
+}
