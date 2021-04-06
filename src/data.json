@@ -5,6 +5,7 @@
       "image": "/images/product1.jpg",
       "description": "About the product",
       "price": 200,
+      "category": "Flowers",
       "available": "yes"
     },
 
@@ -13,6 +14,7 @@
       "image": "/images/product2.jpg",
       "description": "About the product",
       "price": 250,
+      "category": "Home",
       "available": "yes"
     },
 
@@ -21,6 +23,7 @@
       "image": "/images/product3.jpg",
       "description": "About the product",
       "price": 350,
+      "category": "Home",
       "available": "yes"
     },
 
@@ -29,6 +32,7 @@
       "image": "/images/product4.jpg",
       "description": "About the product",
       "price": 200,
+      "category": "Flowers",
       "available": "yes"
     }
   ]

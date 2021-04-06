@@ -103,8 +103,8 @@ footer {
 .product img {
     max-width: 37rem;
     max-height: 37rem;
-
 }
+
 .product h1{
     float: right;
 }
@@ -114,6 +114,7 @@ footer {
     /*justify-content: space-between;*/
     align-items: center;
 }
+
 .product-price .ILS{
     float: left;
 }
