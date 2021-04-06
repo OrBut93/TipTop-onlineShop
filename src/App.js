@@ -23,7 +23,7 @@ class App extends React.Component {
                 <main>
                     <div className="content">
                         <div className="main">
-                            Products
+                            <div className="Home_title">מוצרים חדשים</div>
                             <Products products={this.state.products} ></Products>
                         </div>
                         <div className="sidebar">
@@ -40,8 +40,5 @@ class App extends React.Component {
 
 }
 
-{
-
-}
 
 export default App;

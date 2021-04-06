@@ -1,7 +1,7 @@
 {
   "products": [
     {"_id":"product1",
-      "title":"Product1",
+      "title":"עציץ מלכה",
       "image": "/images/product1.jpg",
       "description": "About the product",
       "price": 200,
@@ -9,7 +9,7 @@
     },
 
     {"_id":"product2",
-      "title":"Product2",
+      "title":"מעמד עוגה",
       "image": "/images/product2.jpg",
       "description": "About the product",
       "price": 250,
@@ -17,7 +17,7 @@
     },
 
     {"_id":"product3",
-      "title":"Product3",
+      "title":"סל כביסה",
       "image": "/images/product3.jpg",
       "description": "About the product",
       "price": 350,
@@ -25,7 +25,7 @@
     },
 
     {"_id":"product4",
-      "title":"Product4",
+      "title":"עציץ שמש",
       "image": "/images/product4.jpg",
       "description": "About the product",
       "price": 200,

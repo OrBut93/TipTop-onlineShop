@@ -10,16 +10,18 @@ export default class Products extends Component {
                             <div className="product">
                                 <a href={"#" + product._id}>
                                     <img src={product.image} alt={product.title}></img>
-                                    <p>
-                                        {product.title}
-                                    </p>
+                                    <h1>{product.title}</h1>
                                 </a>
+                                {/*<h1 className="description">*/}
+                                {/*    {product.description}*/}
+                                {/*</h1>*/}
                                 <div className="product-price">
                                     <div>
-                                        {product.price}
+                                       {product.price}
+                                       <div className="ILS">ש"ח</div>
                                     </div>
                                     <button className="button primary">
-                                        Add To Cart
+                                        הוסף לעגלה
                                     </button>
                                 </div>
                             </div>
