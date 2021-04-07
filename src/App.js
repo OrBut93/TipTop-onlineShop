@@ -1,17 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import data from "./data"
 import Products from "./components/Products";
+import Filter from "./components/Filter";
 
 class App extends React.Component {
     constructor() {
         super();
         this.state = {
             products: data.products,
-            size: "",
-            sort: "",
+            category: "",
         };
+    }
+
+    filterProducts = (event) => {
+        console.log(event.target.value);
+        if (event.target.value == "All") {
+            this.setState({
+
+                category: event.target.value,
+                products: data.products
+
+            })
+        } else {
+            this.setState({
+                category: event.target.value,
+                products: data.products.filter(product => product.category == event.target.value)
+            })
+        }
     }
 
     render() {
@@ -24,11 +40,15 @@ class App extends React.Component {
                     <div className="content">
                         <div className="main">
                             <div className="Home_title">מוצרים חדשים</div>
-                            <Products products={this.state.products} ></Products>
+                            <Filter count={this.state.products.length}
+                                    sort={this.state.sort}
+                                    filterProducts={this.filterProducts}
+                            ></Filter>
+                            <Products products={this.state.products}></Products>
                         </div>
-                        <div className="sidebar">
-                            Cart Items
-                        </div>
+                        {/*<div className="sidebar">*/}
+                        {/*    Cart Items*/}
+                        {/*</div>*/}
                     </div>
                 </main>
                 <footer>

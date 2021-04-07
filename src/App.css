@@ -64,15 +64,16 @@ footer {
 .main {
     flex: 3 60rem;
 }
-.main .Home_title{
+
+.main .Home_title {
     font-size: 35px;
     text-align: center;
     padding-top: 2rem;
 }
 
-.sidebar {
-    flex: 1 20rem;
-}
+/*.sidebar {*/
+/*    !*flex: 1 20rem;*!*/
+/*}*/
 
 /* Products*/
 .products {
@@ -105,7 +106,7 @@ footer {
     max-height: 37rem;
 }
 
-.product h1{
+.product h1 {
     float: right;
 }
 
@@ -115,7 +116,7 @@ footer {
     align-items: center;
 }
 
-.product-price .ILS{
+.product-price .ILS {
     float: left;
 }
 
@@ -146,3 +147,31 @@ footer {
     bottom: 0.5rem;
     /*float: left;*/
 }
+
+.filter {
+    text-align: center;
+    padding-top: 3rem;
+}
+.filter .category{
+    font: 400 17px/2em 'Source Sans Pro', sans-serif;
+}
+.filter .categoryFilter {
+    background: lightgrey;
+    color: #414141;
+    font: 400 17px/2em 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+    position : relative;
+    max-width:  20em;
+    width: 100%;
+    margin-left: 1rem;
+}
+.filter select,
+.option {
+    color: white;
+    font: 400 17px/2em 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+
